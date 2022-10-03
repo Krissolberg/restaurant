@@ -23,40 +23,45 @@ body{
     padding: 20px;
 }
 
-.inner_header{
+.logo_container h1{
+    text-align: center;
+}
+
+/* .inner_header{
     width: 1000px;
     height: 100%;
     display: block;
     margin: 0 auto;
+    background-color: white;
 }
 
 .logo_container{
     height: 100%;
-    display: table;
-    float: middle;
+    display: table; */
 }
 
-.logo_container h1{
+/* .logo_container h1{
     color: black;
     height: 100%;
-    display: table-cell;
+    display: flex;
     vertical-align: middle;
     font-size: 32px;
     font-weight: 200%;
-    text-align: center;
-}
+    align-content: center;
+} */
 
 .navigation{
-    float: center;
     height: 100%;
     display: table-cell;
     text-align: top;
 }
 
 .navigation a{
-    height: 100%;
     float: left;
+    text-align: center;
+    height: 100%;
     padding: 0px 20px;
+    color: gray;
 }
 
 .about{
