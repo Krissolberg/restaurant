@@ -23,45 +23,23 @@ body{
     padding: 20px;
 }
 
-.logo_container h1{
+.header h1{
     text-align: center;
 }
 
-/* .inner_header{
-    width: 1000px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color: white;
+.navbar{
+    overflow: hidden;
+    width: 380px;
+    margin: auto;
 }
 
-.logo_container{
-    height: 100%;
-    display: table; */
-}
-
-/* .logo_container h1{
-    color: black;
-    height: 100%;
-    display: flex;
-    vertical-align: middle;
-    font-size: 32px;
-    font-weight: 200%;
-    align-content: center;
-} */
-
-.navigation{
-    height: 100%;
-    display: table-cell;
-    text-align: top;
-}
-
-.navigation a{
-    float: left;
-    text-align: center;
-    height: 100%;
-    padding: 0px 20px;
+.navbar a{
+    float: none;
     color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .about{
@@ -133,4 +111,25 @@ body{
     font-size: 20px;
 }
 
+.contact{
+    text-align: center;
+}
 
+.contact h2{
+    padding: 5px;
+}
+
+.footer{
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer h4{
+    padding: 5px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}

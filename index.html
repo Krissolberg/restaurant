@@ -10,24 +10,20 @@
 <body>
 
     <!-- Toppen av nettsiden med "logo/navn" og navigasjonsmeny -->
-    <div class="header">
-        <div class="inner_header">
-            <div class="logo_container">
-                <h1>Ventrilo Bistro</h1>
-            </div>
+    <div class="header" id="home">
 
-            <!-- Navigasjonsmeny -->
-            <ul class="navigation">
-                <a href=""><li>Hjem</li></a>
-                <a href=""><li>Om oss</li></a>
-                <a href=""><li>Meny</li></a>
-                <a href=""><li>Kontakt</li></a>
-            </ul>
-
+        <h1>Ventrilo Bistro</h1>
+          
+        <!-- Navigasjonsmeny -->
+        <div class="navbar">
+            <a href="#home">Hjem</a>
+            <a href="#about">Om oss</a>
+            <a href="#menu">Meny</a>
+            <a href="#contact">Kontakt</a>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <table>
             <tr>
                 <td>
@@ -45,7 +41,7 @@
         </table>
     </div>
 
-    <h2 class="meny">Meny</h2>
+    <h2 class="meny" id="menu">Meny</h2>
 
     <div class="lunsj">
     <h3>Lunsj</h3>
@@ -170,27 +166,34 @@
     </table>
     </div>
 
-    <h2>Kontakt</h2>
 
-    <table>
+    <div class="contact" id="contact">
+        <h2>Kontakt</h2>
+        <p>Telefon: 22334455</p> 
+        <p>epost: kundeservice@ventrilo.no</p>
+        <p>Lokasjon: Ventrilogata 1337, 1234 Oslo</p>
+
+    </div>
+
+    <!-- <table class="center">
         <tr>
-            <td>Telefon</td> <td>22334455</td>
+            <td>Telefon</td> 
+            <td>22334455</td>
         </tr>
         <tr>
-            <td>epost</td> <td>kundeservice@ventrillo.no</td>
+            <td>epost</td> 
+            <td>kundeservice@ventrilo.no</td>
         </tr>
-    </table>
+    </table> -->
 
+    <div class="footer">
+        <h4>Åpningstider</h4>
+        <p>Mandag-Torsdag 10:00 - 20:00</p>
+        <p>Fredag-Lørdag 10:00 - 22:30</p>
+        <p>Søndag 12:00 - 20:00</p
+    </div>
+    
 
-    <h4>Åpningstider</h4>
-    <p>
-     Mandag-Torsdag 10:00 - 20:00
-    </p>
-    <p>Fredag-Lørdag 10:00 - 22:30 </p>
-    <p>
-        Søndag 12:00 - 20:00
-
-    </p>
 
     
 </body>
