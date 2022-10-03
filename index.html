@@ -9,10 +9,32 @@
 </head>
 <body>
 
-    <h1>Velkommen til Ventrilo food!</h1>
-    
-    <h2>Meny</h2>
+    <!-- Toppen av nettsiden med "logo/navn" og navigasjonsmeny -->
+    <div class="header" id="home">
 
+        <h1>Ventrilo Bistro</h1>
+          
+        <!-- Navigasjonsmeny -->
+        <div class="navbar">
+            <a href="#home">Hjem</a>
+            <a href="#about">Om oss</a>
+            <a href="#menu">Meny</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        
+        <h1>Om oss</h1>
+        <p>Vi er en restaurant drevet av to kokker med tilsammen over 30 års erfaring innen serveringsbransjen. </p>
+        <p>Vi åpnet Ventrillo i 2013 med et mål om å servere god mat til så mange forskjellige mennesker som mulig,</p> 
+        <p>så vi har lagt et sterkt fokus på en variert meny, med muligheter for folk med forskjellige allergier.</p>
+            
+    </div>
+
+    <h2 class="meny" id="menu">Meny</h2>
+
+    <div class="lunsj">
     <h3>Lunsj</h3>
     <table>
         <tr>
@@ -54,7 +76,9 @@
             </td>
         </tr>
     </table>
+    </div>
     
+    <div class="middag">
     <h3>Middag</h3>
     <table>
         <tr>
@@ -94,7 +118,9 @@
             </td>
         </tr>
     </table>
+    </div>
 
+    <div class="snacks">
     <h3>Snacks</h3>
     <table>
         <tr>
@@ -125,31 +151,35 @@
         </tr>
     
     </table>
+    </div>
 
-    <h2>Kontakt</h2>
 
-    <table>
+    <div class="contact" id="contact">
+        <h2>Kontakt</h2>
+        <p>Telefon: 22334455</p> 
+        <p>epost: kundeservice@ventrilo.no</p>
+        <p>Lokasjon: Ventrilogata 1337, 1234 Oslo</p>
+
+    </div>
+
+    <!-- <table class="center">
         <tr>
-            <td>Telefon</td> <td>22334455</td>
+            <td>Telefon</td> 
+            <td>22334455</td>
         </tr>
         <tr>
-            <td>epost</td> <td>kundeservice@ventrillo.no</td>
+            <td>epost</td> 
+            <td>kundeservice@ventrilo.no</td>
         </tr>
-    </table>
+    </table> -->
 
-    <h2>Om oss</h2>
-    <p>Vi er en restaurant drevet av to kokker med tilsammen over 30 års erfaring innen serveringsbransjen. Vi åpnet Ventrillo i 2013 med et mål om å servere god mat til så mange forskjellige mennesker som mulig, så vi har lagt et sterkt fokus på en variert meny, med muligheter for folk med forskjellige allergier.
-    </p>
-
-    <h4>Åpningstider</h4>
-    <p>
-     Mandag-Torsdag 10:00 - 20:00
-    </p>
-    <p>Fredag-Lørdag 10:00 - 22:30 </p>
-    <p>
-        Søndag 12:00 - 20:00
-
-    </p>
+    <div class="footer">
+        <h4>Åpningstider</h4>
+        <p>Mandag-Torsdag 10:00 - 20:00</p>
+        <p>Fredag-Lørdag 10:00 - 22:30</p>
+        <p>Søndag 12:00 - 20:00</p
+    </div>
+    
 
 
     
