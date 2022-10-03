@@ -43,17 +43,11 @@ body{
 }
 
 .about{
-    height: 100%;
-    width: 50%;
     text-align: center;
-    display: table-cell;
-    background-color: white;
 }
 
-.about h1{
-    vertical-align: middle;
-    font-size: 24px;
-    font-weight: 200%;
+.about h2{
+    padding: 5px;
 }
 
 
